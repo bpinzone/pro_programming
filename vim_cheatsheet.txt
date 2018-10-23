@@ -1,0 +1,178 @@
+Vim Cheat Sheet
+
+GLOBAL
+:help keyword - open help for keyword
+:saveas file - save file as
+:close - close current pane
+K - open man page for word under cursor
+
+CURSOR MOVEMENT
+h - move cursor left
+j - move cursor down
+k - move cursor up
+l - move cursor right
+===
+H - move to top of screen
+M - move to middle of screen
+L - move to bottom of screen
+===
+w - jumps forward to start of a word
+W - same but can contain punctuation
+e - jump forwards to end of a word
+E - same but can contain punctuation
+b - jump backwards to the start of a word
+B - same but can contain punctuation
+===
+% - move to matching character. ()[]{}
+0 - jump to start of line
+^ - jump to first non-blank character of line
+$ - jump to end of line
+g_ - jump to the last non-blank character of the line
+gg - go to first line of document
+G - go to last line of document
+===
+5G - go to line 5
+fx - jumps to next occurrence of character x
+tx - jumps to before next occurrence of character x
+Fx - jump to previous occurrence of character x
+Tx - jump to after previous occurrence of character x
+;  - repeat previous f, t, F, or T movement
+, - repeat previous f, t, F, or T movement, backwards
+} - jump to next paragraph
+{ - jump to previous paragraph
+zz - center cursor on screen
+ctrl e - move screen down one line (without moving cursor)
+ctrl y - move screen up one line (without moving cursor)
+ctrl b - move back one full screen
+ctrl f - move forward one full screen
+ctrl d - move forward 1/2 screen
+ctrl u = move back 1/2 screen
+
+INSERT MOVE
+i - insert before cursor
+I - insert at beginning of line
+a - insert (append) after cursor
+A - insert (append) at the end of line
+o - append (open) a new line below the current line
+O - append )open) a new line above the current line
+ea - insert (append) at the end of a word
+Esc - exit insert mode
+
+EDITING
+r - replace single character
+J - join line below to the current one with a space in between
+gJ - join line below to the current one without a space
+gwip - reflow paragraph
+cc - change (replace) entire line
+c$ - change (replace) to the end of the line
+ciw - change (replace) entire word
+cw - change (replace) to the end of a word
+s - delete character and substitute text
+S - delete line and substitute text (same as cc)
+xp - transpose/translate/transform two letters (delete and paste)
+u - undo
+ctrl r - redo
+. - repeat last command
+
+MARKING TEXT
+v - start visual mode, mark lines, then do a command like y-yank
+V - start linewise visual move
+o - move to other end of marked area
+ctrl v - start visual block mode
+O - move to the other corner of block
+aw - mark a word
+ab - block with ()
+aB - block with {}
+ib - inner block with ()
+iB - inner block with {}
+Esc - exit visual mode
+
+VISUAL COMMANDS
+> - shift text right (indent)
+< - shift text left (unindent)
+y - yank (copy) marked text
+d - delete marked text
+~ - switch case
+
+REGISTERS
+:reg - show registers content
+"xy - yank into register x
+"xp - paste contents of register x
+
+MARKS
+:marks - list of marks
+ma - set current position for mark A
+`a - jump to position of mark A
+y`a - yank text to position of mark A
+
+MACROS
+qa - record macro a
+q - stop recording macro
+@a - run macro a
+@@ - run last macro
+
+CUT AND PASTE
+yy - yank (copy) line
+2yy - yank 2 lines
+yw - yank the characters of the word from the cursor position to the start of the next word
+y$ - yank to the end of the line
+p - put (paste) the clipboard after cursor
+P - put (paste) before cursor
+dd - delete line
+2dd - delete 2 lines
+dw - delete the characters from cursor to start of the next word
+D - delete to the end of line
+d$ - delete to the end of line
+x - delete character
+
+EXITING
+:w - write file
+:w !sudo - write file with sudo
+:wq or :x or ZZ - write and quit
+:q - quit (fails if not saved)
+:q! or ZQ - quit and discard unsaved
+:wqa - write and quit on all tabs
+
+SEARCH AND REPLACE
+/pattern - search for patter
+?pattern - search backward for pattern
+\vpattern - 'very magic' pattern: non-alphanum characters are interpretted as special regex symbols. No escaping needed.
+n - repeat search in same direction
+N - repeat search in opposite direction
+:%s/old/new/g - replace all old with new throughout file
+:%s/old/new/gc - replace all old with new throughout file with confirmations
+:noh - remove highlighting of search matches
+
+SEARCH IN MULTIPLE FILES
+:vimgrep /pattern/ {file} - search for pattern in multiple files
+:cn - jump to the next match
+:cp - jump to the previous match
+:copen - open a window containing the list matches
+
+WORKING WITH MULTIPLE FILES
+:e file - edit a file in a new buffer
+:bnext or :bn - go to the next buffer
+:bprev or :bp - go to the previous buffer
+:bd - delete a buffer (close a file)
+:ls - list all open buffers
+:sp file - open a file in a new buffer and split window
+:vsp file - open a file in a new buffer and vertically split window
+ctrl ws - split window
+ctrl ww - switch windows
+ctrl wq - quit a window
+ctrl wv - spit window vertically
+ctrl wh - move cursor to the left window (vertical split)
+ctrl wl - move cursor to the right window (vertical split)
+ctrl wj - move cursor to the window below (horizontal split)
+ctrl wk - move cursor to the window above (horizontal split)
+
+TABS
+:tabnew or :tabnew file - open a file in a new tab
+ctrl wT - move the current split window into its own tab
+gt or :tabnext or :tabn - move to the next tab
+gT or :tabprev or :tabp - move to the previous tab
+#gt 0 move to tab number #
+:tabmove # - move current tab to the #th position (index 0)
+:tabclose or :tabc - close the current tab and all its windows
+:tabonly or :tabo - close all tabs except for the current one
+:tabdo command - run the command on all tabs. (ex: :tabdo q - closes all open tabs)
