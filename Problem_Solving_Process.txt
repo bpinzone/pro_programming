@@ -2,6 +2,7 @@ Programming Problem Solving Process
 This is a collection of processes, ideas, and useful information to go through for each stage of solving programming problems.
 It's a mix of my own reflections and experiential insights, as well as advice from others at the end.
 Some parts are specific to C++.
+(benpinzone.io/psp Redirects to this raw document on my git.)
 ========================================================================
 
 Know and Use the STL. (Containers, Algorithms, Utils.)
@@ -186,6 +187,48 @@ Excellent STL
 ========================================================================
 ========================================================================
 New / To Consolidate
+New From 482
+    General
+        Have an incomplete initial idea? Just go for it and start reasoning about it.
+        State what you want/need clearly. (And in technical terms!!! Be specific with yourself.)
+        Again - Just try something.
+        Again - Small enumeration is not bad.
+        Ask yourself the right questions.
+
+        Having trouble implementing a detail of a design? A problem clearly stated is half solved.
+            ie Some entity doesn't have access to the instance of class x that invoked me... (So give that entity a pointer!)
+
+        Clarity of Design
+            Do NOT instantiate superfluous objects.
+            Think like Connamacher.
+            When you need clarity, think only of fundamental definitions of:
+                1. your tools
+                2. the fundamental desired outcome of what you are building.
+
+        Understanding the question
+            Read every single word carefully.
+            Do not make un-warranted assumptions. PAY ATTENTION TO PLURALITY (s).
+            Know your responsibilities. (maintaining structures, etc.)
+            When you think you're done, re-read the question and go through like a checklist.
+            Am I making an incorrect assumptions?
+
+    Specific
+        Pointers solve everything. -P Chen. Muxes solve everything. - M Brehob.
+        Better safe than sorry with locks and guards. Just don't cause deadlock.
+        'What is the problem with concept x' -> 'What problems might occur if we use concept x?'
+        Review P2 Design.
+        Highly Specific
+            Check if queues are empty.
+            Locks and CVs
+                You never know how the world has changed when you give up and re-acquire a lock.
+                When you return from wait, you have the lock.
+            Deadlock - when NO ONE can make progress.
+                State the condition such that not a single entity can make progress.
+            Review <x>context.
+                set: set processor context to that pointed to by arg (ucontext_t*).
+                get: get processor context and store it into that pointed to by arg (ucontext_t*).
+                make: make processor context out of: <func, num_args, args...> and store it into that pointed to by arg (ucontext_t*).
+                Use dynamic bools.
 
 ========================================================================
 ========================================================================
