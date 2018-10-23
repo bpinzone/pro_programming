@@ -1,4 +1,5 @@
 Vim Cheat Sheet
+(Text version for grep)
 
 GLOBAL
 :help keyword - open help for keyword
