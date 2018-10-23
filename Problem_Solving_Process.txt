@@ -80,11 +80,11 @@ Misc
 Don't be blind
     Am I missing anything obvious?
     Do not get hung up on one aspect of the problem.
+    If visualization would greatly help, and you don't have it, you're BLIND!
     Take a step back and look at details that you weren't focusing on before- access modifiers, etc.
     What language subtleties might I correct?
         (ie access modifiers, inline statics)
     Many pointers? DRAW IT. ie linked list problems.
-    If visualization would greatly help, and you don't have it, you're BLIND!
 
 Bridging the Gap
     What do I have?
@@ -196,7 +196,7 @@ New From 482
         Ask yourself the right questions.
 
         Having trouble implementing a detail of a design? A problem clearly stated is half solved.
-            ie Some entity doesn't have access to the instance of class x that invoked me... (So give that entity a pointer!)
+            ie Some entity doesn't have access to the instance of class x THAT INVOKED ME... (So give that entity a pointer!)
 
         Clarity of Design
             Do NOT instantiate superfluous objects.
@@ -210,7 +210,7 @@ New From 482
             Do not make un-warranted assumptions. PAY ATTENTION TO PLURALITY (s).
             Know your responsibilities. (maintaining structures, etc.)
             When you think you're done, re-read the question and go through like a checklist.
-            Am I making an incorrect assumptions?
+            Am I making any incorrect assumptions?
 
     Specific
         Pointers solve everything. -P Chen. Muxes solve everything. - M Brehob.
@@ -223,7 +223,7 @@ New From 482
                 You never know how the world has changed when you give up and re-acquire a lock.
                 When you return from wait, you have the lock.
             Deadlock - when NO ONE can make progress.
-                State the condition such that not a single entity can make progress.
+                State the condition such that not a single entity can make progress. How many entities are there?
             Review <x>context.
                 set: set processor context to that pointed to by arg (ucontext_t*).
                 get: get processor context and store it into that pointed to by arg (ucontext_t*).
@@ -239,6 +239,8 @@ Other People's Processes
         Divide and conquer
         Dynamic program
         Backtracking or Branch + Bound
+
+    Get P Chen's. TODO.
 
     Random Dude
         "What's the question?" In my case, I can trace 80% of the instances where I mis-answered to my getting the question wrong and not realizing that I had gotten the question wrong.
