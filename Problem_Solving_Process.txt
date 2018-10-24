@@ -187,6 +187,13 @@ Excellent STL
 ========================================================================
 ========================================================================
 New / To Consolidate
+Other New
+    Do not trip over your own complexity.
+        Try not to have a data structure serve more than one purpose if there are no benefits.
+        Make sure stopping conditions on loops are as specific as they should be.
+        If a design starts getting out of hand, make it more modular, and state PRECISELY what an entity of code should accomplish.
+        Don't make a loop have two purposes. One loop, one job.
+
 New From 482
     General
         Have an incomplete initial idea? Just go for it and start reasoning about it.
