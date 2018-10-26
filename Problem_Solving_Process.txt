@@ -187,6 +187,10 @@ Excellent STL
 ========================================================================
 ========================================================================
 New / To Consolidate
+TODO:
+    Identify 3-5 critical pieces:
+        1. Actively identify any bad assumptions you may have made unintentionally.
+
 Other New
     Do not trip over your own complexity.
         Try not to have a data structure serve more than one purpose if there are no benefits.
@@ -218,6 +222,13 @@ New From 482
             Know your responsibilities. (maintaining structures, etc.)
             When you think you're done, re-read the question and go through like a checklist.
             Am I making any incorrect assumptions?
+
+        Make no assumptions about objects that users give you as input. Especially in set theory.
+            Ask - For what user input will this not work. Now also, YOU - try to break it as if you're malicious.
+            ex: Do not assume give mutex pointer sets are disjoint.
+
+        ACTIVELY try to come up with assumptions you may have unintentionally made.
+        ACTIVELY ask yourself - What do I want, in technical terms?
 
     Specific
         Pointers solve everything. -P Chen. Muxes solve everything. - M Brehob.
