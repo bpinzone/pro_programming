@@ -19,7 +19,7 @@ Some parts are specific to C++.
 * Pair - Auto sorts by first, then seconds.
 * Graphs
 * Composition - Use one inside another.
-* Combination - Use multiple alongside each other.
+* Combination - Use multiple alongside each other.  
 **Algorithm Families**  
 * Direct
 * Brute Force
