@@ -1,4 +1,4 @@
-## Programming Problem Solving Process>
+## Programming Problem Solving Process
   
 This is a collection of processes, ideas, and useful information to go through for each stage of solving programming problems.
 It's a mix of my own reflections and experiential insights, as well as advice from others at the end.
