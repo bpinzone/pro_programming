@@ -84,7 +84,7 @@ Some parts are specific to C++.
 * What do I have?
 * What do I know?
 * What are my tools?
-<br>
+
 * What additional information would be helpful?
 * What additional basic information could I compute easily?
     * Try counting things, running all your data through any functions provided.
