@@ -84,7 +84,7 @@ Some parts are specific to C++.
 * What do I have?
 * What do I know?
 * What are my tools?
-
+<br>
 * What additional information would be helpful?
 * What additional basic information could I compute easily?
     * Try counting things, running all your data through any functions provided.
@@ -213,7 +213,7 @@ New From Operating Systems.
     * **Actively** ask yourself - What do I want, in technical terms?
 * Specific
     * Pointers solve everything. -P Chen.
-    * Muxes solve everything. - M Brehob.  
+    * Muxes solve everything. - Brehob
     * Better safe than sorry with locks and guards. Just don't cause deadlock.
     * 'What is the problem with concept x' -> 'What problems might occur if we use concept x?'
     * Review P2 Design.
