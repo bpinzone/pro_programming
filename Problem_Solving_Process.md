@@ -5,7 +5,7 @@ It's a mix of my own reflections and experiential insights, as well as advice fr
 Some parts are specific to C++.
 (benpinzone.io/psp Redirects here)
 ---
-### Know and use the STL (Containers, Algorithms, Utils.)
+### Know and use the STL (Containers, Algorithms, Utilities.)
   
 **Data Structures**
 * Class, Array, Vector, Linked List
@@ -135,7 +135,7 @@ Some parts are specific to C++.
 * Run through algorithm families.
 * Particularly cycle detection with limited knowledge.
 ---
-### Existence of Solution Problems:
+### Existence of Solution Problems
 * Making your algorithm more efficient:
     * Ask the following for two cases: What will my algorithm do? What are the time bounds for that case? When can I stop?
         * If there is a solution.
