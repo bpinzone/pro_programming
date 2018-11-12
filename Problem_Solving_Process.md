@@ -6,7 +6,7 @@ Some parts are specific to C++.
 (benpinzone.io/psp Redirects here)
 ---
 ### Know and use the STL (Containers, Algorithms, Utils.)
-Data Structures
+**Data Structures**
 * Class, Array, Vector, Linked List
 * Deque, Stack, Queue, Priority Queue / Heap
 * Sets
@@ -21,8 +21,7 @@ Data Structures
 * Graphs
 * Composition - Use one inside another.
 * Combination - Use multiple alongside each other.
----
-Algorithm Families
+**Algorithm Families**
 * Direct
 * Brute Force
 * Greedy
