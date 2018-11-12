@@ -46,21 +46,21 @@ Some parts are specific to C++.
     * May lead to more insight.
 * Which populated data structure(s) do I wish I had?
     * If you had this structure, the problem would be trivial.
-* What CAN I do? What will the result of those can-do actions be?
+* What **can** I do? What will the result of those can-do actions be?
 * What first step am I forced to take?
 * Be clever - see section.
 * If you have a partial solution- Think about what you want it to do fundamentally, and state what it presently does clearly.
 ---
 ### Always
 * Do it yourself!
-    * Identify YOUR operations extremely specifically.
+    * Identify **your** operations extremely specifically.
         * In most cases, if you can't do it, you can't program a computer to do it.
     * Pretend you have a perfect memory as a human.
 ---
 ### Misc
 * If you're asked about the existence of a solution or the value of some property (count the number of swaps necessary, etc), keep in mind you probably won't need to write the entire algorithm that would actually determine that result. Just some theoretical analysis. Use counting techniques, set theory, etc.
-* Once you have the main idea and you are confident in the algorithm, DO NOT forget to work out all minute details.
-    * BE the computer. Be the compiler. Forget what the code is supposed to do. See what it does.
+* Once you have the main idea and you are confident in the algorithm, **do not** forget to work out all minute details.
+    * **Be** the computer. Be the compiler. Forget what the code is supposed to do. See what it does.
 * Just try something.
 * Try inverting the problem statement of 'what I want to do':
     * 'I want to take out the least expensive edges' ->
@@ -72,13 +72,13 @@ Some parts are specific to C++.
 * Think carefully about final return values.
 ---
 ### Don't be Blind
-* If visualization would greatly help, and you don't have it, you're BLIND!
+* If visualization would greatly help, and you don't have it, you're **_BLIND_**!
 * Am I missing anything obvious?
 * Do not get hung up on one aspect of the problem.
 * Take a step back and look at details that you weren't focusing on before- access modifiers, etc.
 * What language subtleties might I correct?
     * Access modifiers, inline statics, etc.
-* Many pointers? DRAW IT. ie linked list problems.
+* Many pointers? **Draw it**. ie linked list problems.
 ---
 ### Bridging the Gap
 * What do I have?
@@ -181,7 +181,7 @@ Other New
 * Do not trip over your own complexity.
     * Try not to have a data structure serve more than one purpose if there are no benefits.
     * Make sure stopping conditions on loops are as specific as they should be.
-    * If a design starts getting out of hand, make it more modular, and state PRECISELY what an entity of code should accomplish.
+    * If a design starts getting out of hand, make it more modular, and state **precisely** what an entity of code should accomplish.
     * Don't make a loop have two purposes. One loop, one job.
 New From Operating Systems.
 * General
@@ -191,9 +191,9 @@ New From Operating Systems.
     * Again - Small enumeration is not bad.
     * Ask yourself the right questions.
     * Having trouble implementing a detail of a design? A problem clearly stated is half solved.
-        * ie Some entity doesn't have access to the instance of class x THAT INVOKED ME... (So give that entity a pointer!)
+        * ie Some entity doesn't have access to the instance of class x **that invoked me**... (So give that entity a pointer!)
     * Clarity of Design
-        * Do NOT instantiate superfluous objects.
+        * Do **not** instantiate superfluous objects.
         * Think like Connamacher.
         * When you need clarity, think only of fundamental definitions of:
             * your tools
@@ -205,10 +205,10 @@ New From Operating Systems.
         * When you think you're done, re-read the question and go through like a checklist.
         * Am I making any incorrect assumptions?
     * Make no assumptions about objects that users give you as input. Especially in set theory.
-        * Ask - For what user input will this not work. Now also, YOU - try to break it as if you're malicious.
+        * Ask - For what user input will this not work. Now also, **you** - try to break it as if you're malicious.
         * ex: Do not assume give mutex pointer sets are disjoint.
-    * ACTIVELY try to come up with assumptions you may have unintentionally made.
-    * ACTIVELY ask yourself - What do I want, in technical terms?
+    * **Actively** try to come up with assumptions you may have unintentionally made.
+    * **Actively** ask yourself - What do I want, in technical terms?
 * Specific
     * Pointers solve everything. -P Chen. Muxes solve everything. - M Brehob.
     * Better safe than sorry with locks and guards. Just don't cause deadlock.
@@ -219,7 +219,7 @@ New From Operating Systems.
         * Locks and CVs
             * You never know how the world has changed when you give up and re-acquire a lock.
             * When you return from wait, you have the lock.
-        * Deadlock - when NO ONE can make progress.
+        * Deadlock - when **no one** can make progress.
             * State the condition such that not a single entity can make progress. How many entities are there?
         * Review get,set,make context.
             * set: set processor context to that pointed to by arg (ucontext_t*).
