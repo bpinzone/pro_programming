@@ -113,7 +113,7 @@ Some parts are specific to C++.
     * If you're having trouble deciding, consider using a combination or composition.
 ---
 ### Being Clever
-* Visualize the Data! In any way that you can!
+* **Visualize** the Data! In any way that you can!
 * Observe basic sample cases. What if I did this?
 * What is really going on here, fundamentally?
     * If you are given some entity/function, ask- What IS this, fundamentally?
@@ -177,12 +177,14 @@ Some parts are specific to C++.
 ### New / To Consolidate
 Identify 3-5 Critical Pieces
 * Actively identify any bad assumptions you may have made unintentionally.
+  
 Other New
 * Do not trip over your own complexity.
     * Try not to have a data structure serve more than one purpose if there are no benefits.
     * Make sure stopping conditions on loops are as specific as they should be.
     * If a design starts getting out of hand, make it more modular, and state **precisely** what an entity of code should accomplish.
     * Don't make a loop have two purposes. One loop, one job.
+  
 New From Operating Systems.
 * General
     * Have an incomplete initial idea? Just go for it and start reasoning about it.
