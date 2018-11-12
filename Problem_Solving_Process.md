@@ -1,9 +1,9 @@
 ## Programming Problem Solving Process
-
+---
 This is a collection of processes, ideas, and useful information to go through for each stage of solving programming problems.
 It's a mix of my own reflections and experiential insights, as well as advice from others at the end.
 Some parts are specific to C++.
-(benpinzone.io/psp Redirects to this raw document)
+(benpinzone.io/psp Redirects here)
 ---
 ### Know and use the STL (Containers, Algorithms, Utils.)
 Data Structures
@@ -21,6 +21,7 @@ Data Structures
 * Graphs
 * Composition - Use one inside another.
 * Combination - Use multiple alongside each other.
+---
 Algorithm Families
 * Direct
 * Brute Force
