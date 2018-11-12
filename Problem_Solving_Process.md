@@ -212,7 +212,8 @@ New From Operating Systems.
     * **Actively** try to come up with assumptions you may have unintentionally made.
     * **Actively** ask yourself - What do I want, in technical terms?
 * Specific
-    * Pointers solve everything. -P Chen. Muxes solve everything. - M Brehob.
+    * Pointers solve everything. -P Chen.
+    * Muxes solve everything. - M Brehob.  
     * Better safe than sorry with locks and guards. Just don't cause deadlock.
     * 'What is the problem with concept x' -> 'What problems might occur if we use concept x?'
     * Review P2 Design.
