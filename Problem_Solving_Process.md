@@ -173,7 +173,7 @@ Some parts are specific to C++.
 * for_each
 * find_if
 * replace_if
-* And all other variants of regex: .*[copy]?[if]?
+* And all other variants of regex: .*(copy)?(if)?
 ---
 ### New / To Consolidate
 Identify 3-5 Critical Pieces
