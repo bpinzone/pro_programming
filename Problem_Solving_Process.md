@@ -1,7 +1,7 @@
 ## Programming Problem Solving Process
   
 This is a collection of processes, ideas, and useful information to go through for each stage of solving programming problems.
-It's a mix of my own reflections and experiential insights, as well as advice from others at the end.
+It's a mix of my own reflections and experiential insights, as well as advice from others.
 Some parts are specific to C++.
 (benpinzone.io/psp Redirects here)
 ---
@@ -114,6 +114,7 @@ Some parts are specific to C++.
 ---
 ### Being Clever
 * **Visualize** the Data! In any way that you can!
+* Make observations. Simple Ones. Do small enumeration, and bring each possibility a single step forward in consequences. (Observe consequences.)
 * Observe basic sample cases. What if I did this?
 * What is really going on here, fundamentally?
     * If you are given some entity/function, ask- What IS this, fundamentally?
@@ -176,7 +177,14 @@ Some parts are specific to C++.
 ---
 ### New / To Consolidate
 Identify 3-5 Critical Pieces
+* Understand the Question
+* Visualize Data
+* Do it yourself
+* Make observations
+* What problems does this seem similar to?
+* What are the most important ideas/concepts for this problem?
 * Actively identify any bad assumptions you may have made unintentionally.
+* Bridge the gap
   
 Other New
 * Do not trip over your own complexity.
