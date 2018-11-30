@@ -178,11 +178,13 @@ Some parts are specific to C++.
 ### New / To Consolidate
 Identify 3-5 Critical Pieces
 * Understand the Question
-* Visualize Data
-* Do it yourself
-* Make observations
-* What problems does this seem similar to?
 * What are the most important ideas/concepts for this problem?
+* What problems does this seem similar to?
+* Visualize Data
+* Make observations
+* Do it yourself
+* Keep your solution simple!
+    * Do not go for the more highly optimized solution right away if the complexity isn't worth it. (In terms of just getting a first solution down, anyway.)
 * Actively identify any bad assumptions you may have made unintentionally.
 * Bridge the gap
   
