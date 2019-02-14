@@ -22,7 +22,7 @@
 * In general, think carefully about who should own a piece of persistent data.
 
 ### General
-* User Getter/Setters
+* Use Getter/Setters
     * Gives you more flexibility in how fundamental data is interpreted.
     * Allows for easy behavioral changes in derived classes.
     * The object can know (and potentially do actions) when people are reading / writing its data.
