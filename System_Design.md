@@ -1,6 +1,6 @@
-### System Design and Programming
+## System Design and Programming
 
-## Services and Interfaces
+### Services and Interfaces
 * When designing an object or component, have a clear vision for the service and interface it will provide.
     * Otherwise, you'll lack sense of direction, you won't know the ins and outs of this object, and you'll end up with a mess.
 * Not doing things that aren't your job, is just as important as doing your job.
@@ -11,7 +11,7 @@
     * What should this object pay attention to?
     * What should this object not care about?
 
-## Data Model Design
+### Data Model Design
 * If possible, only have members that define **fundamental** data.
     * Superfluous data members makes it hard to know the single source of truth.
     * Consider the memory vs computation trade off.
@@ -21,7 +21,7 @@
     * X is-a Y implies X inherits from Y.
 * In general, think carefully about who should own a piece of persistent data.
 
-## General
+### General
 * User Getter/Setters
     * Gives you more flexibility in how fundamental data is interpreted.
     * Allows for easy behavioral changes in derived classes.
