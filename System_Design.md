@@ -13,7 +13,7 @@
 
 ### Data Model Design
 * If possible, only have members that define **fundamental** data.
-    * Superfluous data members makes it hard to know the single source of truth.
+    * Superfluous data members make it hard to know the single source of truth.
     * Consider the memory vs computation trade off.
 * Picture yourself as being the object - What do you have? What do you know? These are your members.
 * Use has-a and is-a extensively.
