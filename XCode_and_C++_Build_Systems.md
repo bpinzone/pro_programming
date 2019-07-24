@@ -6,7 +6,7 @@
 * Click File -> Add Files to ...
     * Add all your files.
     * Uncheck "copy items if needed"
-* Build the project. (Make sure you have your executable file.)
+* Build the project. (Make sure to build with debug flags, and make sure you have your executable file.
 * Go to Product -> Scheme -> Edit Scheme
     * Go to Run -> Info -> Executable
         * Select your executable file.

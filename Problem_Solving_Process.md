@@ -50,6 +50,7 @@ Some parts are specific to C++.
 * What first step am I forced to take?
 * Be clever - see section.
 * If you have a partial solution- Think about what you want it to do fundamentally, and state what it presently does clearly.
+* If you're very stuck, maybe you're not aware of all of your tools, or assumptions of the problem. Re-read everything carefully.
 ---
 ### Always
 * Do it yourself!
