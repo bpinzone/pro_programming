@@ -178,6 +178,7 @@ Some parts are specific to C++.
 ---
 ### New / To Consolidate
 Identify 3-5 Critical Pieces
+* Follow the path of success and logic.
 * Understand the Question
 * What are the most important ideas/concepts for this problem?
 * What problems does this seem similar to?
