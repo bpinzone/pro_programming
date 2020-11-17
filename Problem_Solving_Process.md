@@ -115,6 +115,7 @@ Some parts are specific to C++.
 ---
 ### Being Clever
 * **Visualize** the Data! In any way that you can!
+    * CHANGE how you're visualizing it! In any way that you can!
 * Make observations. Simple Ones. Do small enumeration, and bring each possibility a single step forward in consequences. (Observe consequences.)
 * Observe basic sample cases. What if I did this?
 * What is really going on here, fundamentally?
@@ -256,3 +257,7 @@ New From Operating Systems.
     * "What information do I need to answer the question and that I don't have?"
     * "If I don't have the info I need, what assumptions can I safely make?"
     * "How do I go about checking my assumptions and verifying the integrity of the facts that I am working with?"
+* 3 Blue 1 Brown
+    * Ask a simpler version of the question. See if there is any good concept that generalizes to original version.
+    * Try reframing the question around new constructs.
+    * Make sure you USE the defining features of the objects involved.
